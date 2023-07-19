@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.navbar a {
+  color: #495057;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #212529;
+}
+
+.navbar .auth {
+  display: flex;
+  gap: 1em;
+}
